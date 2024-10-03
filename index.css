@@ -4,8 +4,11 @@ body{
 header{
   text-align: center;
   color: teal;
-  font-size: 50px;
+  font-size: 60px;
   font-family: fantasy;
+  outline: 10px solid;
+  outline-color: black;
+  outline-offset: 25px;
 }
 #pan{
   position: absolute;
@@ -79,6 +82,8 @@ ol{
 }
 h1{
   text-align: left;
+  color: rgb(68, 7, 83);
+  border: 5px solid;
 }
 #veg{
   border: 2px solid;
@@ -104,4 +109,10 @@ h1{
   position: absolute;
   top: 500;
   left: 450;
+}
+a:visited{
+  color: purple;
+}
+a:hover{
+  color: red;
 }
